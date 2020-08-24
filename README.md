@@ -114,11 +114,12 @@ To get the tables:
 
 Hence, the required MD5 sum (flag) is : **cb43505cff6cf553af067f9002899cc8**
 
-##### For a bonus, let's extract data from users table
+##### For a bonus, let's extract data from users table :wink:
 
 The aim here is to dump the table entries and get the usernames and passwords.
 
 - For that, perform this command:
+  
   `sqlmap -r <filename>.req -D dbs -T users --dump`
 
 *__Output:__*
