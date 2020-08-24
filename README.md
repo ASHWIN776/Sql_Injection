@@ -28,7 +28,7 @@ So let's check it out!!
 Voila!
 We got the login page.
 
-##### *Step 1 completed*
+##### *Step 1 completed* :clap:
 ---
 
 ### STEP 2 : USING BURPSUITE TO GET THE POST REQUEST (PREINSTALLED IN KALI LINUX)
@@ -68,7 +68,7 @@ Now click on the **Action** button and click on **Copy to file**, and save it wi
 
 ![Intercepting the POST request](Snaps/burp5.png)
 
-##### *Step 2 completed*
+##### *Step 2 completed* :muscle:
 ---
 
 Now to work on this .req file and hack into the database, and find the table entries:
@@ -125,4 +125,8 @@ The aim here is to dump the table entries and get the usernames and passwords.
 
 ![users Dump](Snaps/terminal5.png)
 
+Hence found the usernames and passwords.
 
+---
+
+EOF :sunglasses:
