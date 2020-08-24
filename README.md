@@ -1,4 +1,4 @@
-# Sql_Injection
+# Sql_Injection_Example
 Vulnerable website hacked with SQL Injection
 
 ## AIM:
