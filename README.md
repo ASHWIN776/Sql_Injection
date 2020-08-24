@@ -108,7 +108,7 @@ To get the tables:
    
    `sqlmap -r <filename>.req -D dbs -T flags --dump`
 
-*Output*
+> Output
 
 ![flag Dump](Snaps/terminal4.png)
 
